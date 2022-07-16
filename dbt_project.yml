@@ -43,4 +43,7 @@ models:
       sats:
         tags:
           - 'satellite'
-
+    datamart:
+      tags:
+        - 'datamart'
+      materialized: table
